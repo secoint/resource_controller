@@ -5,12 +5,12 @@ require 'rake/rdoctask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "resource_controller"
+    s.name = "rd_resource_controller"
     s.summary = "Rails RESTful controller abstraction plugin."
     s.email = "james@giraffesoft.ca"
-    s.homepage = "http://jamesgolick.com/resource_controller"
-    s.description = ""
-    s.authors = ["James Golick"]
+    s.homepage = "http://github.com/railsdog/resource_controller"
+    s.description = "resource_controller adapted to Rails 3"
+    s.authors = ["James Golick", "Brian Quinn", "Sean Schofield"]
     file_list = FileList.new("[A-Z]*.*", "{bin,generators,lib,test,spec,rails}/**/*") do |f|
       f.exclude(/\.sqlite3/)
       f.exclude(/\.log/)
